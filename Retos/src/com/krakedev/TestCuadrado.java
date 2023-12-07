@@ -11,14 +11,14 @@ public class TestCuadrado {
 		System.out.println("-------------------------------");
 		Cuadrado c2 = new Cuadrado();
 		c2.lado = 2;
-		System.out.println("Perimentro de c1:" + c2.calcularPerimetro());
-		System.out.println("Area de c1:" + c2.calcularArea());
+		System.out.println("Perimentro de c2:" + c2.calcularPerimetro());
+		System.out.println("Area de c2:" + c2.calcularArea());
 
 		System.out.println("-------------------------------");
 		Cuadrado c3 = new Cuadrado();
 		c3.lado = 8;
-		System.out.println("Perimentro de c1:" + c3.calcularPerimetro());
-		System.out.println("Area de c1:" + c3.calcularArea());
+		System.out.println("Perimentro de c3:" + c3.calcularPerimetro());
+		System.out.println("Area de c3:" + c3.calcularArea());
 
 	}
 
