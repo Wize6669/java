@@ -7,6 +7,10 @@ public class Contacto {
 	private Direccion direccion;
 	private ArrayList<Telefono> telefonos= new ArrayList<Telefono>();
 	
+	public Contacto() {
+
+	}
+	
 	public Contacto(String cedula, String nombre, String apellido) {
 		this.cedula = cedula;
 		this.nombre = nombre;
@@ -86,6 +90,12 @@ public class Contacto {
 			}
 		}
 		System.out.println("Incorrectos: " + incorrectos);
+	}
+
+	@Override
+	public String toString() {
+		return "Contacto [cedula=" + cedula + ", nombre=" + nombre + ", apellido=" + apellido + ", direccion="
+				+ direccion + ", telefonos=" + telefonos + "]";
 	}
 	
 }

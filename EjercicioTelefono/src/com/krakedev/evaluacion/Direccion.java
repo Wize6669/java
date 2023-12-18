@@ -32,4 +32,9 @@ public class Direccion {
 		System.out.println("Calle Principal (actualizada): " + this.callePrincipal + "\n" + "Calle Secundaria(actualizada): " + this.calleSecundaria);
 	}
 
+	@Override
+	public String toString() {
+		return "Direccion [callePrincipal=" + callePrincipal + ", calleSecundaria=" + calleSecundaria + "]";
+	}
+
 }
